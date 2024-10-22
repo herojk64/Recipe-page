@@ -1,0 +1,13 @@
+.section__preparation{
+    @apply bg-rose-50 rounded-lg p-4 mb-6;
+    
+    header{
+        @apply text-rose-800 font-bold text-lg mb-3;
+    }
+    ul{
+        @apply marker:text-rose-800 list-inside list-disc text-rose-800 space-y-2 ms-2;
+        li{
+            @apply text-stone-800;
+        }
+    }
+}

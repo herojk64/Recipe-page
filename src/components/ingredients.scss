@@ -1,0 +1,14 @@
+.section__ingredients{
+    @apply pb-6 mb-5 border-b border-b-stone-150;
+    header{
+        @apply font-serif text-brown-800 text-xl mb-4;
+    }
+
+    ul{
+        @apply list-inside list-disc marker:text-brown-800 text-sm space-y-2 ms-1;
+        
+        li{
+            @apply text-stone-700;
+        }
+    }
+}

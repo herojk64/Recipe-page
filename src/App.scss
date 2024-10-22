@@ -1,0 +1,24 @@
+.App {
+  @apply min-h-screen bg-stone-100 flex items-center justify-center font-outfit;
+
+  main {
+    @apply w-full md:w-[600px] bg-white md:rounded-xl md:pt-[24px] pb-[24px];
+
+    .wrapper {
+      @apply px-[24px];
+    }
+
+    .imageWrapper {
+      @apply md:px-[24px];
+
+      img {
+        @apply md:rounded-xl;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+
+
+}

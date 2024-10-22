@@ -1,0 +1,13 @@
+.section__instructions{
+    @apply pb-6 border-b border-b-stone-150 mb-6;
+    header{
+        @apply text-xl font-serif text-brown-800 mb-3;
+    }    
+    ol{
+        @apply list-outside text-stone-600 list-decimal ms-5 marker:text-brown-800 marker:font-bold;
+
+        li{
+            @apply ps-2;
+        }
+    }
+}
